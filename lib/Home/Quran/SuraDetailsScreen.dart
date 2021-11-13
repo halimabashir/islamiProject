@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:islami/main.dart';
 
 class SuraDetailsScreen extends StatefulWidget {
   static const String routeName = 'sura deatils';
@@ -29,9 +28,6 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
         ),
         Scaffold(
           appBar: AppBar(
-            leading: BackButton(
-              color: MyThemeData.primaryColor,
-            ),
             title: Center(
                 child: Text('${args.SuraName}',
                     style: TextStyle(color: Colors.black, fontSize: 30))),

@@ -129,7 +129,7 @@ class QuranTab extends StatelessWidget {
         Expanded(flex: 1, child: Image.asset('assets/images/logo_image.png')),
         Divider(
           color: MyThemeData.primaryColor,
-          thickness: 2,
+          thickness: 1,
         ),
         Text(
           'اسم السورة',
@@ -137,7 +137,7 @@ class QuranTab extends StatelessWidget {
             fontSize: 23,
           ),
         ),
-        Divider(thickness: 2, color: MyThemeData.primaryColor),
+        Divider(thickness: 1, color: MyThemeData.primaryColor),
         Expanded(
           flex: 3,
           child: ListView.builder(
